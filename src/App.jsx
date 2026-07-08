@@ -80,6 +80,20 @@ return (
       className="search-bar"
     />
 
+    <select
+      value={selectedDecade}
+      onChange={(e) => setSelectedDecade(e.target.value)}
+      className="decade-filter"
+    >
+      <option value="All">All Decades</option>
+      <option value="1940s">1940s</option>
+      <option value="1950s">1950s</option>
+      <option value="1960s">1960s</option>
+      <option value="1970s">1970s</option>
+      <option value="1980s">1980s</option>
+      <option value="1990s">1990s</option>
+    </select>
+
     <div className="book-list">
       {filteredBooks.map((book) => (
         <div className="book-row" key={book.key}>
