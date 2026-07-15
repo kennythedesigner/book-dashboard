@@ -2,7 +2,7 @@
 
 Submitted by: **Kennedi Cosma**
 
-This web app: **Shows a chart and now updated information of the books. **
+This web app: **Shows a chart and now updated information of the books.**
 
 Time spent: **80** hours spent in total
 
