@@ -97,6 +97,16 @@ h1 {
   align-items: baseline;
   padding: 16px 4px;
   border-bottom: 1px solid #D2C6AF;
+  text-decoration: none;
+  color: inherit;
+}
+
+.back-link {
+  display: inline-block;
+  color: #5A2A27;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 24px;
 }
 
 .book-title {
